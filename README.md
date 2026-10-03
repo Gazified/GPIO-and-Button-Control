@@ -26,7 +26,9 @@ An ESP32 sketch, developed in the Arduino IDE, that reads a push button on a GPI
 | LED1 | GPIO18 | Output | GPIO18 → 220 Ω → LED1 anode; LED1 cathode → GND |
 | LED2 | GPIO19 | Output | GPIO19 → 220 Ω → LED2 anode; LED2 cathode → GND |
 
-##Circuit Diagram
+## Circuit Diagram
+
+
 <img width="808" height="280" alt="Circuit Diagram using Wokwi" src="https://github.com/user-attachments/assets/8c9f2b30-aa11-4a57-8307-4315e7784a46" />
 
 
@@ -86,6 +88,13 @@ Record what is actually observed after running the circuit.
 | T5 | Reset while button is held | LOW | OFF | ON | |
 
 **Success criteria:** the two LEDs always show opposite states, and the input does not change randomly while the button is released.
+
+## Demonstration and Expected Output:
+
+
+
+
+
 
 
 
